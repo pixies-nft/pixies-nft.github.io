@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "What is Pixies NFT"
 date:   2021-02-28 12:55:31 +0700
 categories: jekyll update
 ---
