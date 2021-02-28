@@ -17,7 +17,14 @@ layout: default
         <input type="checkbox" class="form-check-input" id="exampleCheck1">
         <label class="form-check-label" for="exampleCheck1">Check me out</label>
     </div>
-    <button type="submit" class="btn btn-primary">Generate an NFT</button>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+    <button type="submit" class="btn btn-primary" data-sitekey="6LfXSmsaAAAAAPqsaIc_DvA8_rwp8_EQiI0KMuBd"
+        data-callback='onSubmit' data-action='submit'>Generate an NFT</button>
 </form>
 <br>
 <br>
+<script>
+    function onSubmit(token) {
+        document.getElementById("demo-form").submit();
+    }
+</script>
